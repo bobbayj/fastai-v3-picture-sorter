@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.dropbox.com/s/842y999wwghj7vt/export.pkl?dl=0'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['instagram', 'memes', 'screenshots']
 path = Path(__file__).parent
 
 app = Starlette()
